@@ -1,9 +1,8 @@
 :root {
   --color-text-main: #15191C;
   --color-text-accent: #208EE2;
+  --color-background: #fff;
 }
-
-@import "normalize.css";
 
 @font-face {
   font-family: 'PT Root UI';
@@ -37,5 +36,19 @@ body {
   font-family: 'PT Root UI', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 22;
+  line-height: 2.2;
+  background-color: var(--color-background);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-weight: inherit;
 }
