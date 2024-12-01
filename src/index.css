@@ -1,0 +1,41 @@
+:root {
+  --color-text-main: #15191C;
+  --color-text-accent: #208EE2;
+}
+
+@import "normalize.css";
+
+@font-face {
+  font-family: 'PT Root UI';
+  src: url('/fonts/PTRootUI_Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Root UI';
+  src: url('/fonts/PTRootUI_Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Root UI';
+  src: url('/fonts/PTRootUI_Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Root UI';
+  src: url('/fonts/PTRootUI_Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: 'PT Root UI', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22;
+}
